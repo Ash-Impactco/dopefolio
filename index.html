@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aswin's Portfolio</title>
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="css/style.min.css" as="style">
+    <link rel="preload" href="js/main.min.js" as="script">
+    <link rel="preload" href="dopefolio/Assets/Profile/profile-pic.jpg" as="image">
+    <link rel="preload" href="dopefolio/Assets/Profile/vestaearth_cover-large.webp" as="image">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/animation.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="dopefolio/Assets/Profile/favicon.ico">
+    
+    <!-- Meta tags -->
+    <meta name="description" content="Aswin Sivaprakash - Clean Tech Marketer & Project Assistant specializing in sustainability and environmental management">
+    <meta name="keywords" content="Clean Tech, Sustainability, Marketing, Environmental Management, Climate Solutions">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Aswin Sivaprakash - Portfolio">
+    <meta property="og:description" content="Clean Tech Marketer & Project Assistant specializing in sustainability and environmental management">
+    <meta property="og:image" content="dopefolio/Assets/Profile/profile-pic.jpg">
+    <meta property="og:url" content="https://your-domain.com">
+</head>
+<body class="bg-gray-100">
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="md:w-1/2">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Aswin Sivaprakash</h1>
+                    <h2 class="text-2xl md:text-3xl text-gray-600 mb-6">Clean Tech Marketer & Project Assistant</h2>
+                    <p class="text-lg text-gray-600 mb-8">I've led marketing strategies across Clean Tech, Pharma, Travel, and IGaming—boosting leads by 35% and ROI by 22% across European markets. Now, I'm looking to dive into the carbon removal space, with a growing interest in enhanced rock weathering and other climate solutions. Ideally, this is the last time I update my resume—I'm here to build something long-term in climate.</p>
+                    <div class="flex gap-4">
+                        <a href="https://linkedin.com/in/aswin-sivaprakash" target="_blank" rel="noopener noreferrer" class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                            <i class="fab fa-linkedin mr-2"></i>Connect on LinkedIn
+                        </a>
+                        <a href="#contact" class="bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors">
+                            <i class="fas fa-envelope mr-2"></i>Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <picture>
+                        <source media="(max-width: 640px)" srcset="dopefolio/Assets/Profile/vestaearth_cover-small.webp">
+                        <source media="(max-width: 1024px)" srcset="dopefolio/Assets/Profile/vestaearth_cover-medium.webp">
+                        <img src="dopefolio/Assets/Profile/vestaearth_cover-large.webp" alt="Hero Background" class="w-full h-auto rounded-lg shadow-xl">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="md:w-1/3">
+                        <img src="dopefolio/Assets/Profile/profile-pic.jpg" alt="Profile Picture" class="w-full h-auto rounded-lg shadow-lg">
+                    </div>
+                    <div class="md:w-2/3">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
+                        <p class="text-gray-600 mb-6">I've led marketing strategies across Clean Tech, Pharma, Travel, and IGaming—boosting leads by 35% and ROI by 22% across European markets. Now, I'm looking to dive into the carbon removal space, with a growing interest in enhanced rock weathering and other climate solutions. Ideally, this is the last time I update my resume—I'm here to build something long-term in climate.</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                                <div class="bg-blue-100 p-3 rounded-full">
+                                    <i class="fab fa-linkedin text-blue-600 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">LinkedIn</p>
+                                    <a href="https://linkedin.com/in/aswin-sivaprakash" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-blue-600">linkedin.com/in/aswin-sivaprakash</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                                <div class="bg-gray-100 p-3 rounded-full">
+                                    <i class="fab fa-github text-gray-800 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">GitHub</p>
+                                    <a href="https://github.com/Ash-Impactco" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gray-900">github.com/Ash-Impactco</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                                <div class="bg-red-100 p-3 rounded-full">
+                                    <i class="fas fa-envelope text-red-600 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Email</p>
+                                    <a href="mailto:aswinr63@gmail.com" class="text-gray-700 hover:text-red-600">aswinr63@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                                <div class="bg-green-100 p-3 rounded-full">
+                                    <i class="fas fa-phone text-green-600 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Phone</p>
+                                    <a href="tel:+351938816822" class="text-gray-700 hover:text-green-600">+351 938816822</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-3 bg-white p-4 rounded-lg shadow-sm">
+                                <div class="bg-purple-100 p-3 rounded-full">
+                                    <i class="fas fa-map-marker-alt text-purple-600 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-gray-500">Location</p>
+                                    <span class="text-gray-700">Porto, Portugal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container mx-auto px-4">
+            <div class="section-header">
+                <h2>Skills</h2>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <!-- Sustainability & Carbon -->
+                <button class="collapsible w-full text-left">
+                    <h3 class="text-xl font-bold">Sustainability & Carbon</h3>
+                </button>
+                <div class="content">
+                    <div class="card p-6">
+                        <h4 class="font-semibold text-gray-700 mb-4">Certifications & Tools</h4>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-certificate text-blue-600"></i>
+                                <span>ISO14001 EMS Auditing</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-leaf text-blue-600"></i>
+                                <span>GHG Accounting</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-shield-alt text-blue-600"></i>
+                                <span>NEBOSH</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-clipboard-check text-blue-600"></i>
+                                <span>EIA</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-map-marked-alt text-blue-600"></i>
+                                <span>GIS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Analytics & Reporting -->
+                <button class="collapsible w-full text-left">
+                    <h3 class="text-xl font-bold">Analytics & Reporting</h3>
+                </button>
+                <div class="content">
+                    <div class="card p-6">
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-database text-blue-600"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-chart-line text-blue-600"></i>
+                                <span>PowerBI</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-users-cog text-blue-600"></i>
+                                <span>CRM</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-file-excel text-blue-600"></i>
+                                <span>Excel</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-table text-blue-600"></i>
+                                <span>Google Sheets</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Digital Marketing -->
+                <button class="collapsible w-full text-left">
+                    <h3 class="text-xl font-bold">Digital Marketing</h3>
+                </button>
+                <div class="content">
+                    <div class="card p-6">
+                        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                            <div class="flex items-center space-x-2">
+                                <i class="fab fa-google text-blue-600"></i>
+                                <span>Google Analytics</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fab fa-linkedin text-blue-600"></i>
+                                <span>LinkedIn Ads</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-search text-blue-600"></i>
+                                <span>SEO/SEM</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-bullhorn text-blue-600"></i>
+                                <span>Social Media</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-envelope-open-text text-blue-600"></i>
+                                <span>Email Marketing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container mx-auto px-4">
+            <div class="section-header">
+                <h2>Education</h2>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <!-- University of Twente -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4">
+                            <img src="dopefolio/Assets/University/University of Twente.png" alt="University of Twente" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-3/4">
+                            <h3 class="text-xl font-semibold text-gray-800">University of Twente</h3>
+                            <p class="text-gray-600">MSc in Environmental and Energy Management</p>
+                            <p class="text-gray-700 mt-2">Specialized in sustainable development and environmental management.</p>
+                            
+                            <h4 class="font-semibold text-gray-800 mt-4">Relevant Coursework:</h4>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>
+                                    <strong>Energy Management</strong> – Analyzed renewable energy systems, corporate energy strategies, and sustainable infrastructure planning. Worked with tools like HOMER Energy and RETScreen for scenario modeling and project feasibility.
+                                </li>
+                                <li>
+                                    <strong>Digitalisation & Sustainability</strong> – Studied how digital tools accelerate clean-tech deployment. Gained experience using Power BI for sustainability data analysis and Python for basic energy data scripting.
+                                </li>
+                                <li>
+                                    <strong>Case Project in Energy Management</strong> – Led a team-based project tackling a real-world grid congestion issue. Applied GIS (QGIS) for spatial energy mapping and Excel VBA for custom ROI and emissions modeling.
+                                </li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="https://www.omropfryslan.nl/nl/nieuws/1144457/internationale-studenten-duurzame-aanpak-in-fryslan-is-mogelijk" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                    <i class="fas fa-external-link-alt"></i> View Geothermal Energy Project Publication
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amity University -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4">
+                            <img src="dopefolio/Assets/University/Amity University.png" alt="Amity University" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-3/4">
+                            <h3 class="text-xl font-semibold text-gray-800">Amity University</h3>
+                            <p class="text-gray-600">BSc in Environmental Science</p>
+                            <p class="text-gray-700 mt-2">Focused on environmental studies and sustainable development.</p>
+                            
+                            <h4 class="font-semibold text-gray-800 mt-4">Relevant Bachelor's Coursework & Certifications:</h4>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>
+                                    <strong>Environmental Impact Assessment (EIA)</strong>
+                                    <ul class="ml-6 mt-2">
+                                        <li>Applied EIA frameworks to assess and mitigate environmental risks in real-world project scenarios</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Geographic Information Systems (GIS)</strong>
+                                    <ul class="ml-6 mt-2">
+                                        <li>Developed spatial analysis skills using GIS tools for environmental monitoring and clean-tech site planning</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>ISO 14001 & NEBOSH (IGC)</strong>
+                                    <ul class="ml-6 mt-2">
+                                        <li>Completed training in environmental management systems (ISO 14001)</li>
+                                        <li>International health, safety, and environmental compliance (NEBOSH IGC) during university</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container mx-auto px-4">
+            <div class="section-header">
+                <h2>Experience</h2>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <!-- Clean Tech Marketer -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4">
+                            <div class="grid grid-cols-2 gap-2">
+                                <img src="dopefolio/Assets/Clean tech/download (3).png" alt="Clean Tech 1" class="w-full h-auto rounded-lg shadow-md">
+                                <img src="dopefolio/Assets/Clean tech/download (4).png" alt="Clean Tech 2" class="w-full h-auto rounded-lg shadow-md">
+                                <img src="dopefolio/Assets/Clean tech/download.jpeg" alt="Clean Tech 3" class="w-full h-auto rounded-lg shadow-md">
+                                <img src="dopefolio/Assets/Companies/Unicef.png" alt="UNICEF" class="w-full h-auto rounded-lg shadow-md">
+                            </div>
+                        </div>
+                        <div class="md:w-3/4">
+                            <h3 class="text-xl font-semibold text-gray-800">Clean Tech Marketer</h3>
+                            <p class="text-gray-600">Freelance, Porto (April 2025 - Present)</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>Executed full-funnel B2B demand generation campaigns for early-stage climate tech startups including Windcredibles, ProClime, and Beyond Sustainability, driving a 2× increase in SQLs and contributing in pipeline</li>
+                                <li>Reduced CAC by 10% through SEO, Google Ads, and LinkedIn campaigns under Cleantech Growthlab, generating 20,000+ impressions and 300+ top-of-funnel conversions</li>
+                                <li>Built ABM workflows and email nurture sequences in HubSpot, improving engagement and aligning GTM strategies across sustainability, energy, and mobility sectors</li>
+                                <li>Conducted SEO audits and content updates that boosted site traffic by 40% and improved MQL conversion for clean energy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scores and Levels -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4">
+                            <img src="dopefolio/Assets/Companies/Scores and Levels.png" alt="Scores and Levels" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-3/4">
+                            <h3 class="text-xl font-semibold text-gray-800">Customer Success & Marketing Specialist</h3>
+                            <p class="text-gray-600">Scores and Levels (June 2024 - April 2025)</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>Collaborated with the marketing team to develop data-driven promotional strategies using HubSpot, leading to a 25% increase in customer retention across all regions</li>
+                                <li>Executed bulk messaging campaigns targeting 10,000+ clients, driving a 15% uplift in player engagement and a 10% increase in deposits</li>
+                                <li>Oversaw player engagement and retention initiatives, contributing to a 20% overall growth in customer lifetime value across Asian, African, and Brazilian markets</li>
+                                <li>Handled over 100 customer inquiries daily via chat for iGaming platforms like Bet365, Bet Barter, Aposta Real, and Sky247, ensuring timely resolution of betting issues and account management</li>
+                                <li>Monitored and escalated complex bet disputes to RFBA, CRM, or OPS teams using 9 Wickets, achieving a 95% resolution rate within 24 hours</li>
+                                <li>Assisted over 300 clients monthly with account registrations, deposits, and withdrawals, contributing to a seamless user experience across Asian, African, and Brazilian markets</li>
+                                <li>Managed a portfolio of 150+ VIP customers, conducting telemarketing campaigns that resulted in a 20% increase in high-value customer engagement</li>
+                                <li>Promoted new bonuses and offers, leading to the reactivation of 30% of dormant VIP accounts across targeted regions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- National Chromatography -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4">
+                            <img src="dopefolio/Assets/Companies/National Chromotogrpahy Inco.jpeg" alt="National Chromatography" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-3/4">
+                            <h3 class="text-xl font-semibold text-gray-800">Business Development Manager</h3>
+                            <p class="text-gray-600">National Chromatography Inco, Europe (Oct 2022 - May 2024)</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>Acquired consistent new business with well-formulated and executed strategies based on market expertise</li>
+                                <li>Collaborated with sales and business development teams to fulfill bids, RFP, and tender under strict timelines</li>
+                                <li>Contributed to bottom line revenue by attaining 80% of sales quota</li>
+                                <li>Revitalized marketing efforts employing streamlined processes and rebranding initiatives</li>
+                                <li>Prospected and qualified marketing leads from the pharmaceutical industry using Salesforce CRM attaining conversion rates of 13%</li>
+                                <li>Amplified international sales by selling pharmaceutical stocks worth $35k across North America and South Asia</li>
+                                <li>Liaised with directors, R&D team, sales and procurement team, dispatch and management teams through weekly and monthly meetings</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Eurail -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4">
+                            <img src="dopefolio/Assets/Companies/Eurail.png" alt="Eurail" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-3/4">
+                            <h3 class="text-xl font-semibold text-gray-800">Client Relationship Specialist</h3>
+                            <p class="text-gray-600">Eurail, Netherlands (Sept 2022 - Aug 2023)</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>Addressed customer inquiries through phone, email, and chat channels</li>
+                                <li>Diagnosed and troubleshooted customer problems while delivering technical assistance</li>
+                                <li>Monitored and escalated complex bet disputes to RFBA, CRM, or OPS teams using 9 Wickets</li>
+                                <li>Assisted over 300 clients monthly with account registrations, deposits, and withdrawals</li>
+                                <li>Managed a portfolio of 150+ VIP customers, conducting telemarketing campaigns that resulted in a 20% increase in high-value customer engagement</li>
+                                <li>Promoted new bonuses and offers, leading to the reactivation of 30% of dormant VIP accounts across targeted regions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UNICEF -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/4">
+                            <img src="dopefolio/Assets/Companies/Unicef.png" alt="UNICEF" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-3/4">
+                            <h3 class="text-xl font-semibold text-gray-800">Project Assistant</h3>
+                            <p class="text-gray-600">UNICEF (2019 - 2020)</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>Developed Detailed Project Reports (DPRs) on sustainability, climate change, GHG management, and energy efficiency for BOSCH, PepsiCo, and multiple textile and tanning companies</li>
+                                <li>Led water treatment initiatives for 15+ residential and corporate projects by analyzing BOD, DO, TSS, and other parameters</li>
+                                <li>Designed coagulant/flocculant specifications and supported the installation of drinking water setups, acoustic blowers, and ETPs</li>
+                                <li>Conducted waste management training during corporate/public events and utilized Agile/Kanban methods for sales tracking and stakeholder engagement</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container mx-auto px-4">
+            <div class="section-header">
+                <h2>Projects</h2>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/2">
+                            <img src="dopefolio/Assets/Projects/Climate eventss.jpg" alt="Climate Events 2025 Platform" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-xl font-semibold text-gray-800">Climate-Events-2025</h3>
+                            <p class="text-gray-600">Data Visualization Platform</p>
+                            <p class="text-gray-700 mt-2">Built a data-driven platform to visualize major climate events from 2025—using GIS and interactive dashboards to map trends, impacts, and regional vulnerabilities. Focused on turning raw data into clear, actionable insights for climate awareness.</p>
+                            <div class="mt-4">
+                                <a href="https://github.com/Ash-Impactco/Climate-Events-2025" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                    <i class="fab fa-github"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/2">
+                            <img src="dopefolio/Assets/Projects/Mangroves.jpeg" alt="ERW Mangroves Project" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-xl font-semibold text-gray-800">ERW Mangroves</h3>
+                            <p class="text-gray-600">Environmental Research Project</p>
+                            <p class="text-gray-700 mt-2">Conducted research on Enhanced Rock Weathering (ERW) in mangrove ecosystems. Analyzed carbon sequestration potential and ecosystem services of these critical coastal habitats.</p>
+                            <div class="mt-4">
+                                <a href="https://github.com/Ash-Impactco/ERW---Mangroves" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                    <i class="fab fa-github"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/2">
+                            <img src="dopefolio/Assets/Projects/Salt Marshes.jpeg" alt="ERW Salt Marshes Project" loading="lazy" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-xl font-semibold text-gray-800">ERW Salt Marshes</h3>
+                            <p class="text-gray-600">Environmental Research Project</p>
+                            <p class="text-gray-700 mt-2">Conducted research on Enhanced Rock Weathering (ERW) in salt marsh ecosystems. Analyzed carbon sequestration potential and ecosystem services of these critical coastal habitats.</p>
+                            <div class="mt-4">
+                                <a href="https://github.com/Ash-Impactco/Erw--Salt-Marshes" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                    <i class="fab fa-github"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/2">
+                            <img src="dopefolio/Assets/Projects/Geothermal.jpeg" alt="Geothermal Heat Grid Project" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-xl font-semibold text-gray-800">Upcoming Geothermal Heat Grid</h3>
+                            <p class="text-gray-600">Leeuwarden, Netherlands (Feb 2022 - Apr 2022)</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>Conducted comprehensive social impact assessment through interviews with 100 respondents</li>
+                                <li>Explored public concerns regarding integration of geothermal energy into existing heat grid</li>
+                                <li>Implemented DESSIN-ESS conceptual framework for qualitative data processing</li>
+                            </ul>
+                            <div class="mt-4">
+                                <a href="https://www.omropfryslan.nl/nl/nieuws/1144457/internationale-studenten-duurzame-aanpak-in-fryslan-is-mogelijk" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                    <i class="fas fa-external-link-alt"></i> View Publication
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/2">
+                            <img src="dopefolio/Assets/Projects/Coral Bleaching.jpeg" alt="Coral Bleaching Status Project" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-xl font-semibold text-gray-800">Coral Bleaching Status</h3>
+                            <p class="text-gray-600">Andaman Islands, India (Dec 2017 - Feb 2018)</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>Conducted comprehensive SST analysis revealing 1°C temperature threshold above maximum monthly temperature</li>
+                                <li>Identified degradation of zooxanthellae-algae symbiosis due to thermal stress</li>
+                                <li>Developed Coral Bleaching Alert System (CBAS) using satellite-derived SST data</li>
+                                <li>Studied Acropora coral species degradation rate and SST correlation</li>
+                                <li>Presented findings to multiple stakeholders:
+                                    <ul class="ml-6 mt-2">
+                                        <li>ANET (Andaman Nicobar Environment Team)</li>
+                                        <li>Indian Wildlife Department</li>
+                                        <li>Indian Coast Guard of Andaman</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/2">
+                            <img src="dopefolio/Assets/Projects/smoob_logo.jpeg" alt="EV-Charging App Pilot" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-xl font-semibold text-gray-800">AutomanomousMobility Commerce</h3>
+                            <p class="text-gray-600">SMOOV, Netherlands (Apr 2022 - Jul 2022)</p>
+                            <ul class="list-disc list-inside text-gray-600 space-y-3 mt-2">
+                                <li>Specialized in creating fast & reliable charging location apps for EV drivers through traffic analysis, road quality estimation, urban planning, and seamless troubleshooting.</li>
+                                <li>Contributed to reversing Nitrogen Crisis with AMC and migration to cities.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container mx-auto px-4">
+            <div class="section-header">
+                <h2>Certifications</h2>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-certificate text-blue-600 text-3xl"></i>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">ISO 14001 EMS Auditing</h3>
+                                <p class="text-gray-600">Environmental Management Systems</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-shield-alt text-blue-600 text-3xl"></i>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">NEBOSH IGC</h3>
+                                <p class="text-gray-600">International General Certificate</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-leaf text-blue-600 text-3xl"></i>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">GHG Accounting</h3>
+                                <p class="text-gray-600">Carbon Footprint Assessment</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-clipboard-check text-blue-600 text-3xl"></i>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-800">EIA Certification</h3>
+                                <p class="text-gray-600">Environmental Impact Assessment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventures Section -->
+    <section id="ventures" class="section">
+        <div class="container mx-auto px-4">
+            <div class="section-header">
+                <h2>Ventures</h2>
+            </div>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/3">
+                            <img src="dopefolio/Assets/Ventures/Intrusive Thoughts FTW.jpeg" alt="Intrusive Thoughts FTW" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-2/3">
+                            <h3 class="text-xl font-semibold text-gray-800">Intrusive Thoughts FTW</h3>
+                            <p class="text-gray-600">Creative Content Platform</p>
+                            <p class="text-gray-700 mt-2">A platform for sharing and exploring creative thoughts and ideas.</p>
+                            <div class="mt-4">
+                                <a href="https://linktr.ee/intrusivethoughtsftw" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                    <i class="fas fa-external-link-alt"></i> Visit Linktree
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/3">
+                            <img src="dopefolio/Assets/Ventures/Burrito Delhi.jpeg" alt="Burrito Delhi" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-2/3">
+                            <h3 class="text-xl font-semibold text-gray-800">Burrito Delhi</h3>
+                            <p class="text-gray-600">Food & Lifestyle Brand</p>
+                            <p class="text-gray-700 mt-2">Exploring Delhi's food scene and lifestyle through a unique perspective.</p>
+                            <div class="mt-4">
+                                <a href="https://www.instagram.com/burritodelhi" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                    <i class="fab fa-instagram"></i> Follow on Instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/3">
+                            <img src="dopefolio/Assets/Ventures/Anna ka Dukhaan.jpeg" alt="Anna ka Dukhaan" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-2/3">
+                            <h3 class="text-xl font-semibold text-gray-800">Anna ka Dukhaan</h3>
+                            <p class="text-gray-600">Food & Culture Platform</p>
+                            <p class="text-gray-700 mt-2">Celebrating food, culture, and stories from Delhi's streets.</p>
+                            <div class="mt-4">
+                                <a href="https://www.instagram.com/annakadukhaan" target="_blank" class="text-blue-600 hover:text-blue-800">
+                                    <i class="fab fa-instagram"></i> Follow on Instagram
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container mx-auto px-4">
+            <div class="section-header">
+                <h2>Contact</h2>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <div class="md:w-1/3">
+                            <img src="dopefolio/Assets/Profile/Profile Pic.jpg" alt="Profile Picture" class="w-full h-auto rounded-lg shadow-md">
+                        </div>
+                        <div class="md:w-2/3">
+                            <h3 class="text-xl font-semibold text-gray-800">Get in Touch</h3>
+                            <p class="text-gray-700 mt-2">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                            <div class="mt-4 space-y-4">
+                                <div class="flex items-center space-x-3">
+                                    <i class="fas fa-envelope text-blue-600"></i>
+                                    <a href="mailto:aswin.impactco@gmail.com" class="text-gray-700 hover:text-blue-600">aswin.impactco@gmail.com</a>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="fab fa-linkedin text-blue-600"></i>
+                                    <a href="https://www.linkedin.com/in/aswin-impactco/" target="_blank" class="text-gray-700 hover:text-blue-600">LinkedIn Profile</a>
+                                </div>
+                                <div class="flex items-center space-x-3">
+                                    <i class="fab fa-github text-gray-800"></i>
+                                    <a href="https://github.com/Ash-Impactco" target="_blank" class="text-gray-700 hover:text-blue-600">GitHub Profile</a>
+                                </div>
+                            </div>
+                            <div class="mt-6">
+                                <a href="dopefolio/Assets/Resume/Aswin Resume.pdf" download class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                                    <i class="fas fa-download mr-2"></i> Download Resume
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+
+    <!-- Add this before the closing body tag -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Smooth scroll for all navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Highlight active section in navigation
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('nav a[href^="#"]');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-blue-600');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('text-blue-600');
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
